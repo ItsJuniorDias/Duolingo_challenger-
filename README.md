@@ -1,4 +1,10 @@
 # Code challenger built in React landing page Duolingo
+<img width="1424" alt="Captura de Tela 2024-11-03 às 16 36 01" src="https://github.com/user-attachments/assets/7aa577a8-6182-424d-9725-fc6eb02ef64f">
+<img width="1431" alt="Captura de Tela 2024-11-03 às 16 36 12" src="https://github.com/user-attachments/assets/1b82a881-423e-48be-afae-81dd0695092c">
+<img width="1436" alt="Captura de Tela 2024-11-03 às 16 36 22" src="https://github.com/user-attachments/assets/b33748a3-edf9-4738-953f-5458845af21d">
+<img width="1428" alt="Captura de Tela 2024-11-03 às 16 36 30" src="https://github.com/user-attachments/assets/60068922-c309-4f2d-904c-a7dacf54ed3a">
+
+
 
 # Getting Started with Create React App
 
