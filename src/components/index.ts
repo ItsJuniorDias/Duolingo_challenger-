@@ -8,3 +8,4 @@ export { Learn } from "./Learn/Learn";
 export { Schools } from "./Schools/ Schools";
 export { English } from "./English/English";
 export { Effective } from "./Effective/Effective";
+export { Footer } from "./Footer/Footer";

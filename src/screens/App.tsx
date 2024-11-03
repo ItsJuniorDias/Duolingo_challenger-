@@ -11,6 +11,7 @@ import {
   Schools,
   English,
   Effective,
+  Footer,
 } from "../components";
 
 import { Divider, ContentDivider } from "./styles";
@@ -58,6 +59,8 @@ function App() {
       </ContentDivider>
 
       <Effective />
+
+      <Footer />
     </>
   );
 }
