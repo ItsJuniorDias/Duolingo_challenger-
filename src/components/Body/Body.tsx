@@ -44,7 +44,7 @@ export const Body = () => {
       </ButtonFree>
 
       <ButtonAlready onClick={() => console.log("CLIQUEI AQUI")}>
-        <TitleAlready>{`GET STARTED`}</TitleAlready>
+        <TitleAlready>{`I ALREADY HAVE AN ACCOUNT`}</TitleAlready>
       </ButtonAlready>
     </>
   );
