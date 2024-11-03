@@ -17,3 +17,14 @@ code {
   src: local("Nunito-Regular"),
     url("./fonts/Nunito-Regular.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Nunito-Bold"; /*Can be any text*/
+  src: local("Nunito-Bold"), url("./fonts/Nunito-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito-SemiBold"; /*Can be any text*/
+  src: local("Nunito-SemiBold"),
+    url("./fonts/Nunito-SemiBold.ttf") format("truetype");
+}

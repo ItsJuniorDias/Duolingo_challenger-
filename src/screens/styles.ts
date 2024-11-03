@@ -47,7 +47,7 @@ export const ContentBody = styled.div`
   height: 732px;
   width: 100%;
   background-color: #24538f;
-  z-index: 100;
+  z-index: 1;
   /* display: flex; */
 `;
 
@@ -77,4 +77,64 @@ export const ContainerFree = styled.div`
 export const ConteinerBody = styled.div`
   /* display: flex;
   align-items: center; */
+`;
+
+export const ContentFree = styled.div`
+  height: 242px;
+  width: 713px;
+  /* background-color: blue; */
+  margin-top: -550px;
+  margin-left: 600px;
+  display: flex;
+
+  justify-content: center;
+`;
+
+export const TitleFree = styled.h1`
+  font-family: "Nunito-Regular";
+  font-size: 32px;
+  text-align: center;
+  /* background-color: red; */
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #ffffff;
+`;
+
+export const ButtonFree = styled.button`
+  width: 320px;
+  height: 46px;
+  background-color: #58cc02;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 0px;
+  margin-top: -100px;
+  margin-left: 800px;
+`;
+
+export const TitleButton = styled.h1`
+  font-family: "Nunito-Bold";
+  font-size: 13px;
+  color: #ffffff;
+`;
+
+export const ButtonAlready = styled.button`
+  width: 320px;
+  height: 46px;
+  background-color: #24538f;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-color: #042c60;
+  margin-top: 16px;
+  margin-left: 800px;
+`;
+
+export const TitleAlready = styled.h1`
+  font-family: "Nunito-Bold";
+  font-size: 13px;
+  color: #ffffff;
 `;

@@ -16,6 +16,12 @@ import {
   ImagePlanet,
   ContainerFree,
   ConteinerBody,
+  ContentFree,
+  TitleFree,
+  ButtonFree,
+  TitleButton,
+  ButtonAlready,
+  TitleAlready,
 } from "./styles";
 
 function App() {
@@ -44,6 +50,20 @@ function App() {
           <ContainerFree></ContainerFree>
         </ConteinerBody>
       </ContentBody>
+
+      <ContentFree>
+        <TitleFree>
+          {`The free, fun, and effective way to\nlearn a language!`}
+        </TitleFree>
+      </ContentFree>
+
+      <ButtonFree onClick={() => console.log("CLIQUEI AQUI")}>
+        <TitleButton>{`GET STARTED`}</TitleButton>
+      </ButtonFree>
+
+      <ButtonAlready onClick={() => console.log("CLIQUEI AQUI")}>
+        <TitleAlready>{`GET STARTED`}</TitleAlready>
+      </ButtonAlready>
     </>
   );
 }
