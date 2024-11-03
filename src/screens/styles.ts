@@ -133,8 +133,26 @@ export const ButtonAlready = styled.button`
   margin-left: 800px;
 `;
 
-export const TitleAlready = styled.h1`
+export const TitleAlready = styled.h5`
   font-family: "Nunito-Bold";
   font-size: 13px;
   color: #ffffff;
+`;
+
+export const TabBar = styled.div`
+  width: 100%;
+  height: 74px;
+  background-color: #0a4a82;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const TitleTabBar = styled.h5`
+  font-family: "Nunito-Bold";
+  font-size: 13px;
+  color: #ffffff;
+  margin-left: 32px;
+  margin-right: 32px;
 `;

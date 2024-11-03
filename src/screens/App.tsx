@@ -3,6 +3,9 @@ import logo from "../assets/logo.svg";
 import vectorDown from "../assets/vector_down.svg";
 import background from "../assets/background.svg";
 import planet from "../assets/planet.svg";
+import vectorLeft from "../assets/vector-left.svg";
+import vectorRight from "../assets/vector_right.svg";
+
 import {
   Container,
   Image,
@@ -22,6 +25,8 @@ import {
   TitleButton,
   ButtonAlready,
   TitleAlready,
+  TabBar,
+  TitleTabBar,
 } from "./styles";
 
 function App() {
@@ -64,6 +69,19 @@ function App() {
       <ButtonAlready onClick={() => console.log("CLIQUEI AQUI")}>
         <TitleAlready>{`GET STARTED`}</TitleAlready>
       </ButtonAlready>
+
+      <TabBar>
+        <ImageVector src={vectorLeft} />
+        <TitleTabBar>{`SPANISH`}</TitleTabBar>
+        <TitleTabBar>{`FRENCH`}</TitleTabBar>
+        <TitleTabBar>{`GERMAN`}</TitleTabBar>
+        <TitleTabBar>{`ITALIAN`}</TitleTabBar>
+        <TitleTabBar>{`PORTUGUESE`}</TitleTabBar>
+        <TitleTabBar>{`DUTCH`}</TitleTabBar>
+        <TitleTabBar>{`JAPANESE`}</TitleTabBar>
+
+        <ImageVector src={vectorRight} />
+      </TabBar>
     </>
   );
 }
