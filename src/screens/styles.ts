@@ -1,158 +1,90 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  height: 70px;
-  width: 100%;
-  background-color: #24538f;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-`;
-
-export const Image = styled.img`
-  width: 153px;
-  height: 36px;
-`;
-
 export const ImageVector = styled.img`
   width: 16px;
   height: 16px;
   margin-left: 16px;
 `;
 
-export const Button = styled.button`
-  background-color: #24538f; /* Blue color with 50% opacity */
-  color: white;
-  /* padding: 10px 20px; */
-  margin-top: 8px;
-  border: none;
-  border-radius: 5px;
+export const ContentWorld = styled.div`
+  width: 95%;
+  height: 225px;
+  display: flex;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;
+
+export const ImgWorld = styled.img`
+  width: 185px;
+  height: 145px;
+`;
+
+export const ContainerTextWorld = styled.div`
+  width: 728px;
+  height: 126px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
+
+export const TitleWorld = styled.h5`
+  font-family: "Nunito-Bold";
+  font-size: 22px;
+  color: #3c3c3c;
+`;
+
+export const DescriptionWorld = styled.h5`
+  font-family: "Nunito-Regular";
   font-size: 16px;
-  cursor: pointer;
-  transition: opacity 0.3s;
-  z-index: 1;
+  color: #777777;
+  margin-top: -24px;
 `;
 
-export const Text = styled.h4`
-  font-family: "Nunito-Regular";
-  color: #ffffff;
+export const Divider = styled.div`
+  width: 1300px;
+  height: 2px;
+  background-color: #e5e5e5;
 `;
 
-export const Content = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
-export const ContentBody = styled.div`
-  height: 732px;
+export const ContentDivider = styled.div`
   width: 100%;
-  background-color: #24538f;
-  z-index: 1;
-  /* display: flex; */
+  height: 2px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
 `;
 
-export const Imagebackground = styled.img`
-  height: 1440px;
+export const ContainerWhy = styled.div`
   width: 100%;
-  margin-top: -375px;
-`;
-
-export const ContentPlanet = styled.div`
-  height: 360px;
-  width: 360px;
-  margin-left: 125px;
-  margin-top: -900px;
-`;
-
-export const ImagePlanet = styled.img`
-  height: 360px;
-  width: 360px;
-`;
-
-export const ContainerFree = styled.div`
-  height: 360px;
-  width: 360px;
-`;
-
-export const ConteinerBody = styled.div`
-  /* display: flex;
-  align-items: center; */
-`;
-
-export const ContentFree = styled.div`
-  height: 242px;
-  width: 713px;
-  /* background-color: blue; */
-  margin-top: -550px;
-  margin-left: 600px;
+  height: 475px;
+  background-color: red;
   display: flex;
-
   justify-content: center;
+  align-items: center;
 `;
 
-export const TitleFree = styled.h1`
-  font-family: "Nunito-Regular";
-  font-size: 32px;
-  text-align: center;
-  /* background-color: red; */
-  padding-left: 80px;
-  padding-right: 80px;
-  color: #ffffff;
-`;
-
-export const ButtonFree = styled.button`
-  width: 320px;
-  height: 46px;
-  background-color: #58cc02;
-  border-radius: 16px;
+export const ContentWhy = styled.div`
+  width: 1065px;
+  height: 475px;
+  background-color: blue;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-width: 0px;
-  margin-top: -100px;
-  margin-left: 800px;
 `;
 
-export const TitleButton = styled.h1`
+export const TitleWhy = styled.h5`
   font-family: "Nunito-Bold";
-  font-size: 13px;
-  color: #ffffff;
+  font-size: 22px;
+  color: #3c3c3c;
 `;
 
-export const ButtonAlready = styled.button`
-  width: 320px;
-  height: 46px;
-  background-color: #24538f;
-  border-radius: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-width: 2px;
-  border-color: #042c60;
-  margin-top: 16px;
-  margin-left: 800px;
-`;
-
-export const TitleAlready = styled.h5`
-  font-family: "Nunito-Bold";
-  font-size: 13px;
-  color: #ffffff;
-`;
-
-export const TabBar = styled.div`
+export const ContainerNotebook = styled.div`
   width: 100%;
-  height: 74px;
-  background-color: #0a4a82;
-  margin-top: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-export const TitleTabBar = styled.h5`
-  font-family: "Nunito-Bold";
-  font-size: 13px;
-  color: #ffffff;
-  margin-left: 32px;
-  margin-right: 32px;
+  height: 344px;
+  background-color: green;
 `;
