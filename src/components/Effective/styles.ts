@@ -6,7 +6,7 @@ export const Container = styled.div`
   background-color: red;
 `;
 
-export const ContainerEnglish = styled.div`
+export const ContainerEffective = styled.div`
   width: 90%;
   height: 225px;
 
@@ -17,7 +17,7 @@ export const ContainerEnglish = styled.div`
   justify-content: center;
 `;
 
-export const ContentEnglish = styled.div`
+export const ContentEffective = styled.div`
   width: 95%;
   height: 225px;
   display: flex;
@@ -28,12 +28,12 @@ export const ContentEnglish = styled.div`
   align-items: center;
 `;
 
-export const ImgEnglish = styled.img`
+export const ImgEffective = styled.img`
   width: 185px;
   height: 145px;
 `;
 
-export const ContainerTextEnglish = styled.div`
+export const ContainerTextEffective = styled.div`
   width: 728px;
   height: 126px;
   background-color: #ffffff;
@@ -42,13 +42,13 @@ export const ContainerTextEnglish = styled.div`
   justify-content: center;
 `;
 
-export const TitleEnglish = styled.h5`
+export const TitleEffective = styled.h5`
   font-family: "Nunito-Bold";
   font-size: 22px;
   color: #3c3c3c;
 `;
 
-export const DescriptionEnglish = styled.h5`
+export const DescriptionEffective = styled.h5`
   font-family: "Nunito-Regular";
   font-size: 16px;
   color: #777777;
@@ -61,7 +61,7 @@ export const ImageVector = styled.img`
   margin-left: 16px;
 `;
 
-export const TextEnglish = styled.h4`
+export const TextEffective = styled.h4`
   font-family: "Nunito-Bold";
   font-size: 13px;
   color: #1cb0f6;

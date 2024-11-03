@@ -10,6 +10,7 @@ import {
   Learn,
   Schools,
   English,
+  Effective,
 } from "../components";
 
 import { Divider, ContentDivider } from "./styles";
@@ -51,6 +52,12 @@ function App() {
       </ContentDivider>
 
       <English />
+
+      <ContentDivider>
+        <Divider />
+      </ContentDivider>
+
+      <Effective />
     </>
   );
 }

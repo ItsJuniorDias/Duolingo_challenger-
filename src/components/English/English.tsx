@@ -4,32 +4,32 @@ import icon_english from "../../assets/icon_english.svg";
 
 import {
   Container,
-  ContainerLearn,
-  ContainerTextLearn,
-  ContentLearn,
-  DescriptionLearn,
+  ContainerEnglish,
+  ContainerTextEnglish,
+  ContentEnglish,
+  DescriptionEnglish,
   ImageVector,
-  ImgLearn,
-  TitleLearn,
-  TextSchools,
+  ImgEnglish,
+  TextEnglish,
+  TitleEnglish,
 } from "./styles";
 
 export const English: React.FC = () => {
   return (
-    <ContainerLearn>
-      <ContentLearn>
-        <ContainerTextLearn>
-          <TitleLearn>{`The Duolingo English Test`}</TitleLearn>
+    <ContainerEnglish>
+      <ContentEnglish>
+        <ContainerTextEnglish>
+          <TitleEnglish>{`The Duolingo English Test`}</TitleEnglish>
 
-          <DescriptionLearn>
+          <DescriptionEnglish>
             {`Welcome to the convenient, fast, and affordable English test accepted around the world. By integrating the latest assessment science and AI, we empower anyone to take the test where and when they’re at their best.`}
-          </DescriptionLearn>
+          </DescriptionEnglish>
 
-          <TextSchools>Bring Duolingo to your classroom</TextSchools>
-        </ContainerTextLearn>
+          <TextEnglish>Bring Duolingo to your classroom</TextEnglish>
+        </ContainerTextEnglish>
 
-        <ImgLearn src={icon_english} />
-      </ContentLearn>
-    </ContainerLearn>
+        <ImgEnglish src={icon_english} />
+      </ContentEnglish>
+    </ContainerEnglish>
   );
 };
