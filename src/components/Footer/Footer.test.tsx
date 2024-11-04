@@ -3,7 +3,7 @@ import { render } from "@testing-library/react";
 import "jest-styled-components";
 import { Footer } from "./Footer";
 
-describe("Behavior Body", () => {
+describe("Behavior Footer", () => {
   const screenRender = <Footer onClick={jest.fn()} />;
 
   it("should render Footer", () => {

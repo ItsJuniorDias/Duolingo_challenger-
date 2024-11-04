@@ -16,7 +16,7 @@ export const Header = ({ onClick }: HeaderProps) => {
       <Content>
         <Text>Site language: English</Text>
 
-        <Button onClick={onClick}>
+        <Button data-testid="custom-button" onClick={onClick}>
           <ImageVector src={vectorDown} />
         </Button>
       </Content>
