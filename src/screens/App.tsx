@@ -16,7 +16,7 @@ import {
 
 import { Divider, ContentDivider } from "./styles";
 
-function App() {
+export function App() {
   return (
     <>
       <Header />

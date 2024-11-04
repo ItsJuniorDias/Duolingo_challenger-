@@ -1,16 +1,16 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import "jest-styled-components";
-import { App } from "./App";
+import { Body } from "./Body";
 
-describe("Behavior App", () => {
-  const screenRender = <App />;
+describe("Behavior Body", () => {
+  const screenRender = <Body />;
 
-  it("should render App", () => {
+  it("should render Body", () => {
     const { getByText } = render(screenRender);
 
     // eslint-disable-next-line testing-library/prefer-screen-queries
-    const body = getByText("Effective and efficient");
+    const body = getByText("GET STARTED");
 
     expect(body).toBeTruthy();
   });
