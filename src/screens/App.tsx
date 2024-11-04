@@ -19,7 +19,7 @@ import { Divider, ContentDivider } from "./styles";
 export function App() {
   return (
     <>
-      <Header />
+      <Header onClick={() => console.log("Cliquei aqui")} />
       <Body
         onClickAlreay={() => console.log("Cliquei alreay")}
         onClickFree={() => console.log("Cliquei free")}
