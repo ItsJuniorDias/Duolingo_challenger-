@@ -20,7 +20,10 @@ export function App() {
   return (
     <>
       <Header />
-      <Body />
+      <Body
+        onClickAlreay={() => console.log("Cliquei alreay")}
+        onClickFree={() => console.log("Cliquei free")}
+      />
       <TabBarComponent />
       <World />
 

@@ -18,7 +18,12 @@ import {
   TitleAlready,
 } from "./styles";
 
-export const Body = () => {
+interface BodyProps {
+  onClickFree: () => void;
+  onClickAlreay: () => void;
+}
+
+export const Body = ({ onClickFree, onClickAlreay }: BodyProps) => {
   return (
     <>
       <ContentBody>
@@ -39,11 +44,11 @@ export const Body = () => {
         </TitleFree>
       </ContentFree>
 
-      <ButtonFree onClick={() => console.log("CLIQUEI AQUI")}>
+      <ButtonFree onClick={onClickFree}>
         <TitleButton>{`GET STARTED`}</TitleButton>
       </ButtonFree>
 
-      <ButtonAlready onClick={() => console.log("CLIQUEI AQUI")}>
+      <ButtonAlready onClick={onClickAlreay}>
         <TitleAlready>{`I ALREADY HAVE AN ACCOUNT`}</TitleAlready>
       </ButtonAlready>
     </>

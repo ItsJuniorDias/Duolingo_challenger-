@@ -4,7 +4,9 @@ import "jest-styled-components";
 import { Body } from "./Body";
 
 describe("Behavior Body", () => {
-  const screenRender = <Body />;
+  const screenRender = (
+    <Body onClickAlreay={jest.fn()} onClickFree={jest.fn()} />
+  );
 
   it("should render Body", () => {
     const { getByText } = render(screenRender);
