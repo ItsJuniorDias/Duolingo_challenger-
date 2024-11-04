@@ -3,6 +3,7 @@
 <img width="1431" alt="Captura de Tela 2024-11-03 às 16 36 12" src="https://github.com/user-attachments/assets/1b82a881-423e-48be-afae-81dd0695092c">
 <img width="1436" alt="Captura de Tela 2024-11-03 às 16 36 22" src="https://github.com/user-attachments/assets/b33748a3-edf9-4738-953f-5458845af21d">
 <img width="1428" alt="Captura de Tela 2024-11-03 às 16 36 30" src="https://github.com/user-attachments/assets/60068922-c309-4f2d-904c-a7dacf54ed3a">
+<img width="1428" alt="Captura de Tela 2024-11-03 às 18 28 50" src="https://github.com/user-attachments/assets/66cddf2e-7741-40a8-a1c0-ec6bdca954d7">
 
 ### Figma: https://www.figma.com/design/n1wpi1KkLLNq4qr1EV0W5q/Duolingo?node-id=0-1&node-type=canvas&t=R1m1Kx4pfpmMOh91-0
 
