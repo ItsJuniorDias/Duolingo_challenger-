@@ -7,6 +7,11 @@
 
 ### Figma: https://www.figma.com/design/n1wpi1KkLLNq4qr1EV0W5q/Duolingo?node-id=0-1&node-type=canvas&t=R1m1Kx4pfpmMOh91-0
 
+#### Unit test
+
+<img width="1433" alt="Captura de Tela 2024-11-04 às 10 46 31" src="https://github.com/user-attachments/assets/608e033a-1b90-40d8-a30f-39dcd1d5f62a">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
