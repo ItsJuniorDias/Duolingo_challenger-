@@ -3,8 +3,10 @@ import { render, fireEvent } from "@testing-library/react";
 import "jest-styled-components";
 import { Header } from "./Header";
 
+const onClickMock = jest.fn();
+
 describe("Behavior Header", () => {
-  const screenRender = <Header onClick={jest.fn()} />;
+  const screenRender = <Header onClick={onClickMock} />;
 
   it("should render Header", () => {
     const { getByText, getByTestId } = render(screenRender);
@@ -18,5 +20,6 @@ describe("Behavior Header", () => {
     fireEvent.click(button);
 
     expect(body).toBeTruthy();
+    expect(onClickMock).toHaveBeenCalledTimes(1);
   });
 });
