@@ -63,7 +63,7 @@ export function App() {
 
       <Effective />
 
-      <Footer />
+      <Footer onClick={() => console.log("Cliquei aqui")} />
     </>
   );
 }

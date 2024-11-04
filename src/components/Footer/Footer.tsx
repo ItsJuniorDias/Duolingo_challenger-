@@ -14,7 +14,11 @@ import {
   Description,
 } from "./styles";
 
-export const Footer: React.FC = () => {
+export interface FooterProps {
+  onClick: () => void;
+}
+
+export const Footer = ({ onClick }: FooterProps) => {
   return (
     <>
       <Container>
@@ -22,7 +26,7 @@ export const Footer: React.FC = () => {
           <Content>
             <TextTitle>Learn a language with Duolingo.</TextTitle>
 
-            <ButtonFree onClick={() => console.log("CLIQUEI AQUI")}>
+            <ButtonFree onClick={onClick}>
               <TitleButton>{`GET STARTED`}</TitleButton>
             </ButtonFree>
           </Content>
